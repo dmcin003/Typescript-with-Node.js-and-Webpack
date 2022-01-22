@@ -14,6 +14,7 @@ class Launcher{
 
   public launchApp(){
     console.log("started app");
+    this.server.createServer();
 
   }
 
