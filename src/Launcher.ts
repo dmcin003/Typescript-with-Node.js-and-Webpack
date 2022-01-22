@@ -1,0 +1,24 @@
+import {Server} from './Server/Server';
+
+class Launcher{
+  //instance variables
+
+  private name: string;
+  private server: Server;
+
+  constructor(){
+    this.name = "Launcher";
+    this.server = new Server();
+
+  }
+
+  public launchApp(){
+    console.log("started app");
+
+  }
+
+
+}
+
+new Launcher().launchApp();
+

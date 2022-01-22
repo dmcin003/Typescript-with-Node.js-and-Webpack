@@ -1,0 +1,23 @@
+{
+  "name": "typescript-with-node.js-and-webpack",
+  "version": "1.0.0",
+  "description": "Typescript practice with node and react",
+  "main": "index.js",
+  "scripts": {
+    "start":"ts-node src/Launcher.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmcin003/Typescript-with-Node.js-and-Webpack.git"
+  },
+  "author": "Darron McIntyre",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dmcin003/Typescript-with-Node.js-and-Webpack/issues"
+  },
+  "homepage": "https://github.com/dmcin003/Typescript-with-Node.js-and-Webpack#readme",
+  "devDependencies": {
+    "typescript": "^4.5.5"
+  }
+}
